@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           curl https://dl.google.com/edgedl/chrome-remote-desktop/chromeremotedesktophost.msi -o msi.msi
-          msi.msi
+
           start msi.msi
           "%PROGRAMFILES(X86)%\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AWgavdczYUat3e5wX7FLYJiuoNQa-CpIF5g-3nuRH-DVD0SVMhdmT2k_wX7Qbh_QtT5X3Q" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=%COMPUTERNAME%
           123456
